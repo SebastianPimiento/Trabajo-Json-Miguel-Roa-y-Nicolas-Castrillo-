@@ -1,0 +1,83 @@
+body {
+    background-color: #f0f4f8; /* Fondo claro y suave */
+    font-family: 'Roboto', Arial, sans-serif; /* Nueva fuente más moderna */
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #2c3e50; /* Azul oscuro */
+}
+
+h2 {
+    font-size: 30px;
+    color: #34495e;
+    margin-bottom: 15px;
+}
+
+.table {
+    margin-bottom: 40px;
+    border: 1px solid #dcdcdc;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #e8f6f3; /* Fondo verde claro */
+}
+
+.table-dark {
+    background-color: #2f3640; /* Fondo más oscuro */
+    color: #ecf0f1; /* Texto claro */
+}
+
+label {
+    font-size: 16px;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+input {
+    font-size: 14px;
+    padding: 12px;
+    border: 2px solid #dcdcdc; /* Borde más grueso */
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+button {
+    font-size: 14px;
+    padding: 12px 20px;
+    background-color: #1abc9c; /* Verde brillante */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #16a085; /* Cambio de color en hover */
+}
+
+.btn {
+    border-radius: 30px;
+    padding: 12px 24px;
+    background-color: #e74c3c; /* Rojo intenso */
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+form {
+    border: 2px solid #bdc3c7;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06); /* Sombra más suave */
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+}
